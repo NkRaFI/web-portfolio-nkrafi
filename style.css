@@ -87,6 +87,11 @@ img{
     border-image-slice: 1;
     border-radius: 5px;
 }
+footer p{
+    font-size: 18px;
+    text-align: center;
+    margin: 50px;
+}
 section{
     height: 500px;
 }
