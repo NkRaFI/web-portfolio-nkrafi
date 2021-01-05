@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 100%;
+}
+.sitebar{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.sitebar h1{
+    font-size: 50px;
+}
+.sitebar > p{
+    font-size: 25px;
+}
+.sitebar > *{
+    margin: 15px 0px;
+}
+.orange-highlight{
+    color: orange;
+}
+.btn{
+    color: white;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #FB937E 25%, #FB6555 100%);
+    border: transparent;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+.header .btn a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+#header1{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+}
+#resume{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+    background-position-x: right;
+    background-position-y: center;
+}
+#resume .cv > *{
+    margin: 15px 0px;
+}
+#resume .cv h2{
+    font-size: 40px;
+}
+#resume .cv > p{
+    font-size: 25px;
+}
+.exp-box-shadow{
+    box-shadow: 10px 10px 50px gray;
+    height: 80%;
+}
+#experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+#experience .exp{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3% 0%;
+}
+.gradient-border1{
+    border-left: 7px solid;
+    border-image: linear-gradient(to bottom, #FB6555 30%, #FB937E 100%);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+.gradient-border2{
+    border-left: 7px solid;
+    border-image: linear-gradient(to bottom, #4400fd 30%, #00ccff 100%);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+section{
+    height: 500px;
+}
